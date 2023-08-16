@@ -8,7 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { NavComponent } from './nav/nav.component';
 import { FormsModule , ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule} from '@angular/common/http'
+import { HttpClientModule} from '@angular/common/http';
+import { AccountHolderProfileComponent } from './account-holder-profile/account-holder-profile.component'
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { HttpClientModule} from '@angular/common/http'
     HomeComponent,
     LoginComponent,
     RegisterComponent,
-    NavComponent
+    NavComponent,
+    AccountHolderProfileComponent
   ],
   imports: [
     BrowserModule,
